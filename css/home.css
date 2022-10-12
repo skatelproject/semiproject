@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* nav */
+nav{
+  background-image: url(ciberpungv3.png);
+  background-size: cover;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+label.logo {
+  color: white;
+  font-size: 40px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background-color: cyan;
+  color: black;
+  font-weight: bold;
+  border-radius: 3.5px;
+  padding: 10px;
+  transition: .5s;
+}
+/* akhir nav */
+
+
+/* awln */
+h1.crew {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+
+h1 span {
+  color: red;
+  text-shadow: black -3px 0, cyan 2px 0;
+}
+
+span {
+  color: red;
+}
+
+p.atri {
+  font-size: 20px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-left: 55px;
+  margin-top: 30px;
+}
+
+h2.ril{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+
+p.aka {
+  font-size: 20px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-left: 55px;
+  margin-top: 15px;
+}
+
+h2.dc {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 140px;
+}
+
+p.leb {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*card */
+h3.lang {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 200px;
+  margin-left: 50px;
+  font-weight:900;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 55px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;  
+  font-size: 20px;
+}
+/* ak card */
+
+/* kata mutirara */
+p.prefix {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 50px;
+  margin-top: 180px;
+  font-size: 30px;
+  padding: 5px;
+}
+
+p.deks {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+p.dekstwo {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+/* medsos */
+h3.inco {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 5%;
+  margin-left: 50px;
+  font-weight: normal;
+}
+
+hr {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ig {
+  margin-top: 20px;
+}
+
+.iglogo {
+  width: 80px;
+  margin-left: 115%;
+}
+
+.roziig {
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-left: 110%;
+}
+
+.dc {
+  margin-top: 20px; 
+  margin-left: 35px;
+}
+
+.dclogo {
+  width: 45px;
+  margin-left: 125%;
+}
+
+.rozidc {
+  margin-top: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-left: 90%;
+}
+
+.ghub {
+  margin-top: 20px; 
+  margin-left: 35px;
+}
+
+.ghublogo {
+  width: 50px;
+  margin-left: 170%;
+}
+
+.rozighub {
+  margin-top: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-left: 145%;
+  letter-spacing: 1.5px;
+}
+
+/*ra*/
+
+.igdua {
+  margin-top: 20px;
+}
+
+.iglogodua {
+  width: 80px;
+  margin-left: 185%;
+}
+
+.rafiig {
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-left: 165%;
+}
+
+.dcdua {
+  margin-top: 20px; 
+  margin-left: 35px;
+}
+
+.dclogodua {
+  width: 45px;
+  margin-left: 150%;
+}
+
+.rafidc {
+  margin-top: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-left: 110%;
+}
+
+.ghubdua {
+  margin-top: 20px; 
+  margin-left: 35px;
+}
+
+.ghublogodua {
+  width: 50px;
+  margin-left: 230%;
+}
+
+.rafighub {
+  margin-top: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-left: 200%;
+}
+
+
+footer {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+  background: url(bipan.jpg);
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+}
